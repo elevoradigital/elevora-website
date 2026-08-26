@@ -24,17 +24,7 @@ The project enquiry form connects to [Resend](https://resend.com) to automatical
    - Sign up at [resend.com](https://resend.com).
    - Generate an API key from the [Resend API Keys Dashboard](https://resend.com/api-keys).
 
-2. **Configure Environment Variables**:
-   - Copy `.env.example` to `.env.local`:
-     ```bash
-     cp .env.example .env.local
-     ```
-   - Populate the values in `.env.local`:
-     ```env
-     RESEND_API_KEY=re_123456789abcdef
-     CONTACT_EMAIL=elevoradigital.in@gmail.com
-     EMAIL_FROM=ELEVORA <onboarding@resend.dev>
-     WHATSAPP_NUMBER=919444949868
+
      ```
 
 3. **Development / Local Testing**:
