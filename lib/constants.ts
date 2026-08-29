@@ -41,8 +41,76 @@ export const SITE_CONFIG = {
       badge: "CONCEPT PROJECT — ELEVORA",
       url: "https://ember-and-oak-chi.vercel.app/",
       description:
-        "An immersive restaurant experience combining editorial design, premium interactions, responsive layouts and a seamless reservation journey.",
+        "An immersive restaurant website built around atmosphere, storytelling, menu discovery and reservations.",
     },
+    completed: [
+      {
+        id: "ember-and-oak",
+        index: "01",
+        label: "01 / RESTAURANT",
+        name: "Ember & Oak",
+        industry: "Hospitality",
+        category: "Restaurant & Hospitality",
+        badge: "LIVE PROJECT",
+        conceptBadge: "CONCEPT PROJECT — ELEVORA",
+        url: "https://ember-and-oak-chi.vercel.app/",
+        image: "/images/ember-and-oak.png",
+        description:
+          "An immersive restaurant website built around atmosphere, storytelling, menu discovery and reservations.",
+        highlights: [
+          "Editorial Dining Storytelling",
+          "Tasting Menus & Wine Pairing",
+          "Seamless Online Reservations",
+          "Atmospheric Dark Aesthetic",
+        ],
+      },
+      {
+        id: "volt-athletics",
+        index: "02",
+        label: "02 / FITNESS",
+        name: "Volt Athletics",
+        industry: "Fitness & Performance",
+        category: "Fitness & Performance",
+        badge: "LIVE PROJECT",
+        conceptBadge: "CONCEPT PROJECT — ELEVORA",
+        url: "https://volt-athletics-pi.vercel.app/",
+        image: "/images/volt-athletics.png",
+        description:
+          "A high-performance fitness website built around training programs, memberships, class scheduling and trial bookings.",
+        highlights: [
+          "4 Structured Training Tracks",
+          "Dynamic Class Timetable",
+          "Membership Tier Comparison",
+          "Instant Free Trial Booking",
+        ],
+      },
+    ],
+    upcoming: [
+      {
+        title: "Luxury E-commerce",
+        category: "Retail & Fashion",
+        tag: "Coming Soon",
+        status: "In Development",
+        description:
+          "Minimalist storefront built for high-ticket lifestyle apparel and seamless checkout.",
+      },
+      {
+        title: "Real Estate",
+        category: "Property & Architecture",
+        tag: "Coming Soon",
+        status: "In Development",
+        description:
+          "Editorial property portfolio showcasing luxury architectural developments.",
+      },
+      {
+        title: "Premium Salon",
+        category: "Beauty & Care",
+        tag: "Coming Soon",
+        status: "In Development",
+        description:
+          "Sophisticated salon experience with tiered service menus and stylist scheduling.",
+      },
+    ],
   },
   pricing: {
     starter: {
